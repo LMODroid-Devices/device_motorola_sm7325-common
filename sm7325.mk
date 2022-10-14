@@ -258,10 +258,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.motolahaina
-
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.motorola_lahaina
@@ -393,15 +389,6 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
-
-# Properties
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-    ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.has_wide_color_display=true \
-    ro.surface_flinger.protected_contents=true \
-    ro.surface_flinger.use_color_management=true \
-    ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # QMI
 PRODUCT_PACKAGES += \
